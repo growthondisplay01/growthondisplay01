@@ -30,8 +30,16 @@ window.addEventListener('scroll', () => {
 /* ---------- Mobile menu ---------- */
 const menuToggle = document.getElementById('menuToggle');
 const navList = document.getElementById('navList');
-menuToggle.addEventListener('click', () => navList.classList.toggle('open'));
-document.querySelectorAll('.nav-link, .nav-cta').forEach(l => l.addEventListener('click', () => navList.classList.remove('open')));
+menuToggle.addEventListener('click', () => {
+  navList.classList.toggle('open');
+  menuToggle.classList.toggle('active');
+  menuToggle.setAttribute('aria-expanded', navList.classList.contains('open') ? 'true' : 'false');
+});
+document.querySelectorAll('.nav-link, .nav-cta').forEach(l => l.addEventListener('click', () => {
+  navList.classList.remove('open');
+  menuToggle.classList.remove('active');
+  menuToggle.setAttribute('aria-expanded', 'false');
+}));
 
 /* ---------- Mouse parallax on hero blobs ---------- */
 const heroSection = document.getElementById('hero');
