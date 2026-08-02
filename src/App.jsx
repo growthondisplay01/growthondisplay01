@@ -34,7 +34,7 @@ export default function App() {
           {"\n"}
           <nav>
             {"\n"}
-            <button className={"menu-toggle"} id={"menuToggle"} aria-label={"Toggle menu"}>
+            <button className={"menu-toggle"} id={"menuToggle"} aria-label={"Toggle menu"} aria-expanded={"false"}>
               <span></span>
               <span></span>
               <span></span>
@@ -455,8 +455,8 @@ export default function App() {
                   </svg>
                 </div>
                 {"\n"}
-                <a href={"mailto:harspatelmp1234@gmail.com"}>
-                  {"harspatelmp1234@gmail.com"}
+                <a href={"mailto:growthondisplay.in@gmail.com"}>
+                  {"growthondisplay.in@gmail.com"}
                 </a>
                 {"\n"}
               </div>
@@ -744,7 +744,7 @@ export default function App() {
             </span>
             {"\n"}
             <span>
-              {"Ahmedabad, Gujarat  ·  +91 9274125689  ·  harspatelmp1234@gmail.com"}
+              {"Ahmedabad, Gujarat  ·  +91 9274125689  ·  growthondisplay.in@gmail.com"}
             </span>
             {"\n"}
           </div>
