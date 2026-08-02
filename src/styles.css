@@ -324,7 +324,7 @@ footer p.tag{color:var(--text-soft); font-size:14px; margin-bottom:18px; max-wid
 @media(max-width:720px){
   nav ul{position:fixed; top:0; right:0; height:100vh; width:78vw; background:#fff; flex-direction:column; justify-content:center; align-items:flex-start; gap:26px; padding:0 40px; transform:translateX(100%); transition:transform .5s var(--ease); box-shadow:var(--shadow-lg);}
   nav ul.open{transform:translateX(0);}
-  .menu-toggle{display:flex; flex-direction:column; gap:5px; width:26px; z-index:1100;}
+  .menu-toggle{display:flex; flex-direction:column; gap:5px; width:26px; position:relative; z-index:1100;}
   .menu-toggle span{height:2px; background:var(--text); border-radius:2px; transition:transform .3s var(--ease), opacity .3s var(--ease);}
   .menu-toggle.active span:nth-child(1){transform:translateY(7px) rotate(45deg);}
   .menu-toggle.active span:nth-child(2){opacity:0;}
