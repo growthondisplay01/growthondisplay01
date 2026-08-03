@@ -744,7 +744,7 @@ export default function App() {
             </span>
             {"\n"}
             <span>
-              {"Ahmedabad, Gujarat  ·  +91 9274125689  ·  growthondisplay.in@gmail.com"}
+              {"Ahmedabad, Gujarat  ·  +91 9274125689  ·  Info@growthondisplay.com"}
             </span>
             {"\n"}
           </div>
