@@ -455,8 +455,8 @@ export default function App() {
                   </svg>
                 </div>
                 {"\n"}
-                <a href={"mailto:growthondisplay.in@gmail.com"}>
-                  {"growthondisplay.in@gmail.com"}
+                <a href={"mailto:Info@growthondisplay.com"}>
+                  {"Info@growthondisplay.com"}
                 </a>
                 {"\n"}
               </div>
